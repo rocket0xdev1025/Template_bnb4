@@ -17094,7 +17094,7 @@ const y4 = () => {
             },
             className: "flex flex-col md:flex-row items-center gap-2 text-center md:text-left",
             children: [h.jsx("p", {
-              children: "© 2025 金钱自由. All rights reserved."
+              children: "© 2026 金钱自由. All rights reserved."
             }), h.jsx("span", {
               className: "hidden md:inline text-[#F0B90B]",
               children: "•"

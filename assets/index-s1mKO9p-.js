@@ -17177,13 +17177,13 @@ const y4 = () => {
             children: [h.jsx("span", {
               className: "text-[#F0B90B] font-semibold",
               children: "Disclaimer:"
-            }), " ", "Digital assets, including meme coins, are highly speculative and carry significant risk. Prices can fluctuate wildly and may drop to zero. Anyone launching, trading, or promoting meme coins on the 10bnb.vip platform should be prepared for the possibility of losing their entire investment. This is a public, decentralized, and permissionless platform."]
+            }), " ", "Digital assets, including meme coins, are highly speculative and carry significant risk. Prices can fluctuate wildly and may drop to zero. This is a public, decentralized, and permissionless platform."]
           }),h.jsxs("br", {
             className: "text-xs text-gray-500 text-center leading-relaxed",
             
           }),h.jsxs("p", {
             className: "text-xs text-gray-500 text-center leading-relaxed",
-            children: ["10bnb.vip does not endorse, vet, or guarantee the legitimacy or viability of any token or project. Use of the platform does not imply recommendation by 10bnb.vip or its contributors. You are solely responsible for assessing your financial situation, risk appetite, and the credibility of any project. Always do your own research (DYOR). Learn more at Binance Academy and review our Terms of Use. 10bnb.vip and its contributors assume no liability for any losses, damages, or issues from interacting with meme coins developed or listed on the platform."]
+            children: ["You are solely responsible for assessing your financial situation, risk appetite, and the credibility of any project. Always do your own research (DYOR). Learn more at Binance Academy and review our Terms of Use."]
           })]
         }), h.jsx(R.button, {
           initial: {

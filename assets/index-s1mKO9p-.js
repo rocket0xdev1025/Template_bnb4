@@ -15367,7 +15367,7 @@ const y4 = () => {
               },
               children: h.jsx("img", {
                 src: "./logo1.png",
-                alt: "你只需要10个BNB",
+                alt: "金钱自由",
                 className: "w-full h-full object-contain drop-shadow-2xl"
               })
             }), h.jsx(R.div, {
@@ -15408,7 +15408,7 @@ const y4 = () => {
             ease: [.16, 1, .3, 1]
           },
           className: "text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4",
-          children: "你只需要10个BNB"
+          children: "金钱自由"
         }), h.jsx(R.p, {
           initial: {
             y: 30,
@@ -15441,7 +15441,7 @@ const y4 = () => {
           },
           className: "flex flex-col sm:flex-row gap-4 justify-center items-center",
           children: [h.jsxs(R.a, {
-            href: "https://pancakeswap.finance/swap?outputCurrency=0x6969f00d67bd4f93b80ebc8f9b3e869935a960cf&chain=bsc",
+            href: "https://pancakeswap.finance/swap?outputCurrency=0x1f2329d6f765b2cb4d054c6677e9d065f38b4444&chain=bsc",
             target: "_blank",
             whileHover: {
               scale: 1.05,
@@ -15453,7 +15453,7 @@ const y4 = () => {
             className: "group relative px-8 py-4 bg-gradient-to-r from-[#F0B90B] to-[#FFD43B] text-[#181A20] font-bold text-lg rounded-full overflow-hidden shadow-lg shadow-[#F0B90B]/30 transition-all",
             children: [h.jsx("span", {
               className: "relative z-10",
-              children: "Buy $10BNB"
+              children: "Buy $金钱自由"
             }), h.jsx(R.div, {
               className: "absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity",
               whileHover: {
@@ -15461,7 +15461,7 @@ const y4 = () => {
               }
             })]
           }), h.jsx(R.a, {
-            href: "https://t.me/t_10BNB",
+            href: "https://t.me/financialfreecz",
             target: "_blank",
             whileHover: {
               scale: 1.05
@@ -15492,7 +15492,7 @@ const y4 = () => {
             children: "Contract:"
           }), h.jsx("span", {
             className: "text-white font-mono text-sm",
-            children: "0x6969f00d67bd4f93b80ebc8f9b3e869935a960cf"
+            children: "0x1f2329d6f765b2cb4d054c6677e9d065f38b4444"
           }), h.jsx("button", {
             className: "text-[#F0B90B] hover:text-[#FFD43B] transition-colors",
             children: h.jsx("svg", {
@@ -15569,7 +15569,7 @@ const y4 = () => {
         label: "BNB Chain",
         value: "Native"
       }, {
-        label: "Mascot Status",
+        label: "CZ",
         value: "Official"
       }];
     return h.jsxs("section", {
@@ -15675,7 +15675,7 @@ const y4 = () => {
                   className: "relative p-8",
                   children: [h.jsx("img", {
                     src: "./palluu1.png",
-                    alt: "你只需要10个BNB Character",
+                    alt: "金钱自由 Character",
                     className: "w-full h-auto object-contain drop-shadow-2xl"
                   }), [...Array(4)].map((d, y) => h.jsx(R.div, {
                     animate: {
@@ -15715,7 +15715,7 @@ const y4 = () => {
                 className: "w-2 h-2 bg-[#F0B90B] rounded-full animate-pulse"
               }), h.jsx("span", {
                 className: "text-[#F0B90B] text-sm font-semibold uppercase tracking-wider",
-                children: "About 你只需要10个BNB"
+                children: "About 金钱自由"
               })]
             }), h.jsxs(R.h2, {
               variants: r,
@@ -15723,20 +15723,13 @@ const y4 = () => {
               style: {
                 fontFamily: "Orbitron, sans-serif"
               },
-              children: ["你只需要10个BNB", " ", h.jsx("span", {
-                className: "bg-gradient-to-r from-[#F0B90B] to-[#FFD43B] bg-clip-text text-transparent",
-                children: "10BNB"
-              })]
+              children: ["金钱自由"]
             }), h.jsxs(R.div, {
               variants: r,
               className: "space-y-4",
-              children: [h.jsx("span", {
-                className: "bg-gradient-to-r from-[#F0B90B] to-[#FFD43B] bg-clip-text text-transparent",
-                children: "PANews: "
-              }), h.jsx("a", {
-                href:"https://x.com/PANews/status/2013176530629701980",
+              children: [h.jsx("p", {
                 className: "text-lg md:text-xl text-gray-300 leading-relaxed",
-                children: "懒人躺赚秘籍2.0：2025年持有10个BNB，靠Alpha和生态“低保”跑赢99%代币 "
+                children: "金钱自由 is a unique memecoin on the BNB Chain, created as a heartfelt tribute to Binance's remarkable journey in the cryptocurrency world."
               })]
             }), h.jsx(R.div, {
               variants: r,
@@ -15776,7 +15769,7 @@ const y4 = () => {
       }),
       [o, r] = F.useState(!1),
       [c, m] = F.useState(null),
-      d = "0x6969f00d67bd4f93b80ebc8f9b3e869935a960cf",
+      d = "0x1f2329d6f765b2cb4d054c6677e9d065f38b4444",
       y = [{
         label: "Liquidity Pool",
         percentage: 40,
@@ -15805,10 +15798,10 @@ const y4 = () => {
       }],
       g = [{
         label: "Token Name",
-        value: "你只需要10个BNB"
+        value: "金钱自由"
       }, {
         label: "Symbol",
-        value: "10BNB"
+        value: "金钱自由"
       }, {
         label: "Network",
         value: "BNB Chain"
@@ -16017,8 +16010,8 @@ const y4 = () => {
             d: "M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
           })
         }),
-        handle: "@x_10bnb",
-        link: "https://x.com/x_10bnb",
+        handle: "@financialfreecz",
+        link: "https://x.com/financialfreecz",
         color: "#1DA1F2",
         gradient: "from-[#1DA1F2] to-[#0D8BD9]"
       }, {
@@ -16032,7 +16025,7 @@ const y4 = () => {
           })
         }),
         handle: "Join our Telegram",
-        link: "https://t.me/t_10BNB",
+        link: "https://t.me/financialfreecz",
         color: "#0088cc",
         gradient: "from-[#0088cc] to-[#006699]"
       }, {
@@ -16046,14 +16039,14 @@ const y4 = () => {
           })
         }),
         handle: "View Chart",
-        link: "https://www.dextools.io/app/en/bnb/pair-explorer/0x6969f00d67bd4f93b80ebc8f9b3e869935a960cf",
+        link: "https://www.dextools.io/app/en/bnb/pair-explorer/0x1f2329d6f765b2cb4d054c6677e9d065f38b4444",
         color: "#08d3f7ff",
         gradient: "from-[#5865F2] to-[#4752C4]"
       }],
       r = [{
         icon: "🎯",
         title: "Holder Rewards",
-        description: "Earn passive rewards just by holding 你只需要10个BNB tokens"
+        description: "Earn passive rewards just by holding 金钱自由 tokens"
       }, {
         icon: "🚀",
         title: "Exclusive Access",
@@ -16061,11 +16054,11 @@ const y4 = () => {
       }, {
         icon: "🤝",
         title: "Governance Rights",
-        description: "Vote on key decisions and shape the future of 你只需要10个BNB"
+        description: "Vote on key decisions and shape the future of 金钱自由"
       }, {
         icon: "🎨",
         title: "NFT Drops",
-        description: "Exclusive 你只需要10个BNB NFT collections for community members"
+        description: "Exclusive 金钱自由 NFT collections for community members"
       }],
       c = {
         hidden: {
@@ -16172,7 +16165,7 @@ const y4 = () => {
             }), h.jsx(R.p, {
               variants: m,
               className: "text-lg md:text-xl text-gray-400 max-w-2xl mx-auto",
-              children: "Join thousands of 你只需要10个BNB holders and be part of the most vibrant community on BNB Chain"
+              children: "Join thousands of 金钱自由 holders and be part of the most vibrant community on BNB Chain"
             })]
           }), h.jsx(R.div, {
             variants: c,
@@ -16296,13 +16289,13 @@ const y4 = () => {
                 className: "text-3xl md:text-4xl font-bold text-white",
                 children: ["Ready to Join the", " ", h.jsx("span", {
                   className: "bg-gradient-to-r from-[#F0B90B] to-[#FFD43B] bg-clip-text text-transparent",
-                  children: "你只需要10个BNB Revolution?"
+                  children: "金钱自由 Revolution?"
                 })]
               }), h.jsx("p", {
                 className: "text-lg text-gray-300 max-w-2xl mx-auto",
                 children: "Connect with thousands of holders, stay updated on the latest news, and be part of the most exciting community on BNB Chain"
               }), h.jsx(R.a, {
-                href: "https://t.me/t_10BNB",
+                href: "https://t.me/financialfreecz",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 whileHover: {
@@ -16352,7 +16345,7 @@ const y4 = () => {
         title: "Growth & Expansion",
         status: "in-progress",
         quarter: "Q2 2025",
-        items: ["Major CEX listings (Binance, KuCoin)", "Strategic partnerships with DeFi protocols", "你只需要10个BNB NFT collection launch", "Community rewards program", "Global marketing campaign"],
+        items: ["Major CEX listings (Binance, KuCoin)", "Strategic partnerships with DeFi protocols", "金钱自由 NFT collection launch", "Community rewards program", "Global marketing campaign"],
         icon: h.jsx("svg", {
           className: "w-8 h-8",
           fill: "none",
@@ -16370,7 +16363,7 @@ const y4 = () => {
         title: "Utility & Innovation",
         status: "upcoming",
         quarter: "Q3 2025",
-        items: ["你只需要10个BNB staking platform launch", "Integration with Binance ecosystem", "Mobile app development", "Cross-chain bridge implementation", "Governance token mechanics"],
+        items: ["金钱自由 staking platform launch", "Integration with Binance ecosystem", "Mobile app development", "Cross-chain bridge implementation", "Governance token mechanics"],
         icon: h.jsx("svg", {
           className: "w-8 h-8",
           fill: "none",
@@ -16388,7 +16381,7 @@ const y4 = () => {
         title: "Ecosystem Dominance",
         status: "upcoming",
         quarter: "Q4 2025",
-        items: ["你只需要10个BNB DeFi suite launch", "GameFi integration & play-to-earn", "Metaverse presence & virtual events", "Major brand collaborations", "Global community events"],
+        items: ["金钱自由 DeFi suite launch", "GameFi integration & play-to-earn", "Metaverse presence & virtual events", "Major brand collaborations", "Global community events"],
         icon: h.jsx("svg", {
           className: "w-8 h-8",
           fill: "none",
@@ -16406,7 +16399,7 @@ const y4 = () => {
         title: "The Future",
         status: "future",
         quarter: "2026+",
-        items: ["你只需要10个BNB DAO governance implementation", "Layer 2 scaling solutions", "Enterprise partnerships", "Global adoption initiatives", "Innovation lab for new features"],
+        items: ["金钱自由 DAO governance implementation", "Layer 2 scaling solutions", "Enterprise partnerships", "Global adoption initiatives", "Innovation lab for new features"],
         icon: h.jsx("svg", {
           className: "w-8 h-8",
           fill: "none",
@@ -16566,7 +16559,7 @@ const y4 = () => {
             }), h.jsx(R.p, {
               variants: m,
               className: "text-lg md:text-xl text-gray-400 max-w-2xl mx-auto",
-              children: "From launch to global domination — follow 你只需要10个BNB's journey to becoming the most iconic mascot token on BNB Chain"
+              children: "From launch to global domination — follow 金钱自由's journey to becoming the most iconic mascot token on BNB Chain"
             })]
           }), h.jsxs("div", {
             className: "relative",
@@ -16809,9 +16802,9 @@ const y4 = () => {
     })]
   }),
   S4 = () => {
-    const [i, l] = F.useState(!1), o = "0x6969f00d67bd4f93b80ebc8f9b3e869935a960cf", r = {
+    const [i, l] = F.useState(!1), o = "0x1f2329d6f765b2cb4d054c6677e9d065f38b4444", r = {
       Product: [{
-        name: "About 你只需要10个BNB",
+        name: "About 金钱自由",
         href: "#about"
       }, {
         name: "Tokenomics",
@@ -16825,10 +16818,10 @@ const y4 = () => {
       }],
       Community: [{
         name: "Twitter",
-        href: " https://x.com/x_10bnb"
+        href: " https://x.com/financialfreecz"
       }, {
         name: "Telegram",
-        href: "https://t.me/t_10BNB"
+        href: "https://t.me/financialfreecz"
       }],
       Resources: [{
         name: "Documentation",
@@ -16858,7 +16851,7 @@ const y4 = () => {
       }]
     }, c = [{
       name: "X",
-      href: " https://x.com/x_10bnb",
+      href: " https://x.com/financialfreecz",
       icon: h.jsx("svg", {
         className: "w-5 h-5",
         fill: "currentColor",
@@ -16869,7 +16862,7 @@ const y4 = () => {
       })
     }, {
       name: "Telegram",
-      href: "https://t.me/t_10BNB",
+      href: "https://t.me/financialfreecz",
       icon: h.jsx("svg", {
         className: "w-5 h-5",
         fill: "currentColor",
@@ -16948,15 +16941,15 @@ const y4 = () => {
                   style: {
                     fontFamily: "Orbitron, sans-serif"
                   },
-                  children: "你只需要10个BNB"
+                  children: "金钱自由"
                 }), h.jsx("p", {
                   className: "text-xs text-gray-500",
-                  children: "你只需要10个BNB Token"
+                  children: "金钱自由 Token"
                 })]
               })]
             }), h.jsx("p", {
               className: "text-sm text-gray-400 leading-relaxed",
-              children: "The official 你只需要10个BNB token on BNB Chain. Join the community and be part of the revolution."
+              children: "The official 金钱自由 token on BNB Chain. Join the community and be part of the revolution."
             }), h.jsx("div", {
               className: "flex items-center gap-3",
               children: c.map((d, y) => h.jsxs(R.a, {
@@ -17101,7 +17094,7 @@ const y4 = () => {
             },
             className: "flex flex-col md:flex-row items-center gap-2 text-center md:text-left",
             children: [h.jsx("p", {
-              children: "© 2025 你只需要10个BNB. All rights reserved."
+              children: "© 2025 金钱自由. All rights reserved."
             }), h.jsx("span", {
               className: "hidden md:inline text-[#F0B90B]",
               children: "•"
@@ -17426,7 +17419,7 @@ const y4 = () => {
                 children: "Binance"
               }), h.jsx("br", {}), h.jsx("span", {
                 className: "text-3xl md:text-5xl lg:text-6xl",
-                children: "in 你只需要10个BNB"
+                children: "in 金钱自由"
               })]
             })]
           }), h.jsxs(R.p, {
@@ -17434,7 +17427,7 @@ const y4 = () => {
             className: "text-lg md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed px-4",
             children: ["Experience the energy, innovation, and community spirit that makes", " ", h.jsx("span", {
               className: "text-[#F0B90B] font-semibold",
-              children: "你只需要10个BNB"
+              children: "金钱自由"
             }), " more than just a token"]
           }), h.jsx(R.div, {
             variants: B,
@@ -17695,10 +17688,10 @@ const y4 = () => {
                   style: {
                     fontFamily: "Orbitron, sans-serif"
                   },
-                  children: "10BNB"
+                  children: "金钱自由"
                 }), h.jsx("p", {
                   className: "text-xs text-gray-500 -mt-1",
-                  children: "你只需要10个BNB"
+                  children: "金钱自由"
                 })]
               })]
             }), h.jsx("div", {
@@ -17749,7 +17742,7 @@ const y4 = () => {
                 }, p)
               })
             }), h.jsxs(R.a, {
-              href: "https://pancakeswap.finance/swap?outputCurrency=0x6969f00d67bd4f93b80ebc8f9b3e869935a960cf&chain=bsc",
+              href: "https://pancakeswap.finance/swap?outputCurrency=0x1f2329d6f765b2cb4d054c6677e9d065f38b4444&chain=bsc",
               target:"_blank",
               initial: {
                 opacity: 0,
@@ -17771,7 +17764,7 @@ const y4 = () => {
                 scale: .95
               },
               className: "hidden lg:flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#F0B90B] to-[#FFD43B] text-[#181A20] font-bold rounded-full shadow-lg shadow-[#F0B90B]/30 hover:shadow-[#F0B90B]/50 transition-all",
-              children: ["Buy $10BNB", h.jsx("svg", {
+              children: ["Buy $金钱自由", h.jsx("svg", {
                 className: "w-4 h-4",
                 fill: "none",
                 stroke: "currentColor",
@@ -17904,10 +17897,10 @@ const y4 = () => {
                       style: {
                         fontFamily: "Orbitron, sans-serif"
                       },
-                      children: "你只需要10个BNB"
+                      children: "金钱自由"
                     }), h.jsx("p", {
                       className: "text-xs text-gray-500",
-                      children: "你只需要10个BNB Token"
+                      children: "金钱自由 Token"
                     })]
                   })]
                 }), h.jsx(R.button, {
@@ -17989,7 +17982,7 @@ const y4 = () => {
                 children: [h.jsxs(R.a, {
                   href: "#tokenomics",
                   onClick: g => {
-                    g.preventDefault(), y("https://dexscreener.com/bsc/0x6969f00d67bd4f93b80ebc8f9b3e869935a960cf")
+                    g.preventDefault(), y("https://dexscreener.com/bsc/0x1f2329d6f765b2cb4d054c6677e9d065f38b4444")
                   },
                   initial: {
                     opacity: 0,
@@ -18007,7 +18000,7 @@ const y4 = () => {
                     scale: .98
                   },
                   className: "flex items-center justify-center gap-2 w-full p-4 bg-gradient-to-r from-[#F0B90B] to-[#FFD43B] text-[#181A20] font-bold rounded-xl shadow-lg shadow-[#F0B90B]/30",
-                  children: ["Buy $10BNB", h.jsx("svg", {
+                  children: ["Buy $金钱自由", h.jsx("svg", {
                     className: "w-5 h-5",
                     fill: "none",
                     stroke: "currentColor",
@@ -18030,7 +18023,7 @@ const y4 = () => {
                         d: "M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
                       })
                     }),
-                    href: " https://x.com/x_10bnb"
+                    href: " https://x.com/financialfreecz"
                   }, {
                     icon: h.jsx("svg", {
                       className: "w-5 h-5",
@@ -18059,7 +18052,7 @@ const y4 = () => {
                   children: "Contract"
                 }), h.jsx("p", {
                   className: "text-xs font-mono text-gray-400 break-all",
-                  children: "0x6969f00d67bd4f93b80ebc8f9b3e869935a960cf"
+                  children: "0x1f2329d6f765b2cb4d054c6677e9d065f38b4444"
                 })]
               })]
             })
